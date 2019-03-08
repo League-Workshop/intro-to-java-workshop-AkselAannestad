@@ -7,9 +7,13 @@ public class MyFirstJavaProgram {
 	
 	public static void main(String[] args) {
 		
-		// START HERE
+	Robot walle=new Robot();
+	walle.penDown();
+	for (int i = 0; i < 4 ;i++) {
+		walle.move(100);
+		walle.turn(90);
+	}
 	
-		
 		
 	}
 }

@@ -6,7 +6,7 @@ import org.jointheleague.graphical.robot.Robot;
 public class FourSquare {
 	
 	// 2. Create a new Robot
-
+Robot walle=new Robot
 	void go() {
 		// 4. Make the robot move as fast as possible
 
@@ -26,7 +26,10 @@ public class FourSquare {
 	void drawSquare() {
 		JOptionPane.showMessageDialog(null, "yay! you called the drawSquare() method!");
 		/* 3. Fill in the code to draw a square inside the method below. */
-		
+		for (int i = 0; i < 4; i++) {
+			walle.move(50);
+			
+		}
 		
 	}
 

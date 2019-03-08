@@ -9,6 +9,19 @@ import org.jointheleague.graphical.robot.Robot;
 public class PentagonCrazy {
 
 	private void makePrettyThings() {
+		Robot walle=new Robot();
+		for (int i = 0; i < 200; i++) {
+			
+			
+		walle.move(i*10);
+			walle.penDown();
+			int side=5;
+			int a=360/side;
+			walle.turn(a);
+			walle.setSpeed(100);
+			walle.setPenColor(Color.red);
+			walle.turn(1);
+		}
 		// 1. Create a new Robot
 
 		// 3. Put the robot's pen down
