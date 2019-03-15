@@ -26,8 +26,27 @@ public class MadlibsOfTheAmazon {
 		// back to the [place]. Good luck!
 		
 		// Make a pop-up for the final story. You can use \n to go to the next line
+		JOptionPane.showMessageDialog(null, "If you find yourself having to cross a piranha-infested river, here's how to do it...");
 		
+		
+		
+		String adj=JOptionPane.showInputDialog("Enter an adjective or face the consequences");
+		String liq=JOptionPane.showInputDialog("Enter a liquid or be thrown in Gulag");
+		String body=JOptionPane.showInputDialog("Enter a nonessential body part");
+		String verb=JOptionPane.showInputDialog("Enter a verb that you would only do under dire cirumstances");
+		String place=JOptionPane.showInputDialog("Enter a place that you would not want to see invaded by slavs");
 
+		JOptionPane.showMessageDialog(null, " Piranhas are more"+ adj+ "during the day, so cross the river at\n" + 
+				"		// night. Piranhas are attracted to fresh+liq+ and will most\n + 
+				"		// likely take a bite out of your +body+ if you +verb+. "Whatever\n + 
+				"		// you do, if you have an open wound, try to find another way to get\n" + 
+				"		// back to the" +place+. "Good luck!");		
+		
+		
+		
+		
+		
+		
 	}
 }
 
